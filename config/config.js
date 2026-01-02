@@ -22,12 +22,54 @@ let config = {
 		// ===== TOP LEFT: Clock + Calendar =====
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_left",
 		},
+
+
+		// ===== TOP RIGHT: GitHub Profile =====
+		{
+			module: "MMM-GitHubProfile",
+			position: "top_right",
+			config: {
+				username: "arafatahmedtanimcsedu57",
+				showAvatar: true,
+				showStats: true,
+				showBio: false,
+				showCommits: true,
+				maxCommits: 3
+			}
+		},
+
+		// ===== BOTTOM LEFT: Weather =====
+		{
+			module: "weather",
+			position: "bottom_left",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "current",
+				lat: 23.8103,
+				lon: 90.4125
+			}
+		},
+		{
+			module: "weather",
+			position: "bottom_left",
+			header: "পূর্বাভাস",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "forecast",
+				lat: 23.8103,
+				lon: 90.4125
+			}
+		},
+
+
+		// ===== BOTTOM RIGHT: ========
+
 		{
 			module: "calendar",
 			header: "আসন্ন ছুটি",
-			position: "top_left",
+			position: "bottom_right",
 			config: {
 				maximumEntries: 5,
 				calendars: [
@@ -62,7 +104,7 @@ let config = {
 		},
 		{
 			module: "MMM-MyPrayerTimes",
-			position: "top_left",
+			position: "bottom_right",
 			header: "নামাযের সময়",
 			config: {
 				mptLat: 23.8103,
@@ -77,33 +119,11 @@ let config = {
 			}
 		},
 
-		// ===== TOP RIGHT: Weather =====
-		{
-			module: "weather",
-			position: "top_right",
-			config: {
-				weatherProvider: "openmeteo",
-				type: "current",
-				lat: 23.8103,
-				lon: 90.4125
-			}
-		},
-		{
-			module: "weather",
-			position: "top_right",
-			header: "পূর্বাভাস",
-			config: {
-				weatherProvider: "openmeteo",
-				type: "forecast",
-				lat: 23.8103,
-				lon: 90.4125
-			}
-		},
 
 		// ===== CENTER: Compliments =====
 		{
 			module: "compliments",
-			position: "lower_third",
+			position: "upper_third",
 			config: {
 				compliments: {
 					anytime: ["তুমি দারুণ!", "চমৎকার দিন কাটাও!"],
@@ -118,28 +138,14 @@ let config = {
 			}
 		},
 
-		// ===== BOTTOM LEFT: Quotes =====
 		{
 			module: "MMM-BanglaQuotes",
-			position: "bottom_left",
+			position: "upper_third",
 			config: {
 				updateInterval: 30 * 60 * 1000
 			}
 		},
 
-		// ===== BOTTOM RIGHT: GitHub =====
-		{
-			module: "MMM-GitHubProfile",
-			position: "bottom_right",
-			config: {
-				username: "arafatahmedtanimcsedu57",
-				showAvatar: true,
-				showStats: true,
-				showBio: false,
-				showCommits: true,
-				maxCommits: 3
-			}
-		},
 
 		// ===== BOTTOM BAR: News =====
 		{
