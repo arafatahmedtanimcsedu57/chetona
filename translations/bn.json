@@ -1,0 +1,49 @@
+{
+	"LOADING": "লোড হচ্ছে …",
+
+	"YESTERDAY": "গতকাল",
+	"TODAY": "আজ",
+	"TOMORROW": "আগামীকাল",
+	"RUNNING": "শেষ হবে",
+	"EMPTY": "কোনো আসন্ন ইভেন্ট নেই।",
+	"WEEK": "সপ্তাহ {weekNumber}",
+	"WEEK_SHORT": "স{weekNumber}",
+
+	"N": "উ",
+	"NNE": "উউপূ",
+	"NE": "উপূ",
+	"ENE": "পূউপূ",
+	"E": "পূ",
+	"ESE": "পূদপূ",
+	"SE": "দপূ",
+	"SSE": "দদপূ",
+	"S": "দ",
+	"SSW": "দদপ",
+	"SW": "দপ",
+	"WSW": "পদপ",
+	"W": "প",
+	"WNW": "পউপ",
+	"NW": "উপ",
+	"NNW": "উউপ",
+
+	"FEELS": "অনুভূত {DEGREE}",
+	"PRECIP_POP": "বৃষ্টির সম্ভাবনা",
+	"PRECIP_AMOUNT": "বৃষ্টিপাতের পরিমাণ",
+
+	"MODULE_CONFIG_CHANGED": "{MODULE_NAME} মডিউলের কনফিগারেশন অপশন পরিবর্তন হয়েছে।\nঅনুগ্রহ করে ডকুমেন্টেশন দেখুন।",
+	"MODULE_CONFIG_ERROR": "{MODULE_NAME} মডিউলে ত্রুটি। {ERROR}",
+	"MODULE_ERROR_MALFORMED_URL": "ভুল URL।",
+	"MODULE_ERROR_NO_CONNECTION": "ইন্টারনেট সংযোগ নেই।",
+	"MODULE_ERROR_UNAUTHORIZED": "অনুমোদন ব্যর্থ।",
+	"MODULE_ERROR_UNSPECIFIED": "বিস্তারিত জানতে লগ দেখুন।",
+
+	"NEWSFEED_NO_ITEMS": "এই মুহূর্তে কোনো খবর নেই।",
+
+	"UPDATE_NOTIFICATION": "MagicMirror² আপডেট পাওয়া গেছে।",
+	"UPDATE_NOTIFICATION_MODULE": "{MODULE_NAME} মডিউলের জন্য আপডেট পাওয়া গেছে।",
+	"UPDATE_INFO_SINGLE": "বর্তমান ইনস্টলেশন {BRANCH_NAME} ব্রাঞ্চে {COMMIT_COUNT} কমিট পিছিয়ে।",
+	"UPDATE_INFO_MULTIPLE": "বর্তমান ইনস্টলেশন {BRANCH_NAME} ব্রাঞ্চে {COMMIT_COUNT} কমিট পিছিয়ে।",
+	"UPDATE_NOTIFICATION_DONE": "{MODULE_NAME} মডিউলের আপডেট সম্পন্ন",
+	"UPDATE_NOTIFICATION_ERROR": "{MODULE_NAME} মডিউলের আপডেটে ত্রুটি",
+	"UPDATE_NOTIFICATION_NEED-RESTART": "MagicMirror পুনরায় চালু করা প্রয়োজন।"
+}
