@@ -1,0 +1,17 @@
+{
+    "name": "mmm-groqai",
+    "version": "1.0.0",
+    "description": "MagicMirror² module for Groq AI (Llama models) - Free AI assistant with voice input",
+    "main": "MMM-GroqAI.js",
+    "author": "Custom Built",
+    "license": "MIT",
+    "keywords": [
+        "magicmirror",
+        "module",
+        "groq",
+        "ai",
+        "llama",
+        "voice",
+        "assistant"
+    ]
+}

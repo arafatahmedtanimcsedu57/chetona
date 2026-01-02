@@ -1,0 +1,159 @@
+.github-profile-wrapper {
+    text-align: right;
+    padding: 5px 10px;
+}
+
+/* Header section - avatar + name inline */
+.github-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.github-info {
+    text-align: right;
+}
+
+.github-avatar img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #58a6ff;
+}
+
+.github-name {
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1px;
+}
+
+.github-username {
+    font-size: 0.75em;
+    color: #8b949e;
+}
+
+.github-username i {
+    margin-right: 4px;
+    color: #58a6ff;
+}
+
+/* Stats grid - compact */
+.github-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: 10px 0;
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+}
+
+.github-stat-item {
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 6px;
+}
+
+.github-stat-item .stat-value {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.github-stat-item .stat-label {
+    font-size: 0.6em;
+    color: #8b949e;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Activity bar */
+.github-activity {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 0.8em;
+    color: #8b949e;
+    margin: 8px 0;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.activity-item i {
+    font-size: 0.9em;
+}
+
+.activity-item.streak i {
+    color: #f85149;
+}
+
+.activity-item.today i {
+    color: #3fb950;
+}
+
+.activity-item .activity-value {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Commits section */
+.github-commits {
+    margin-top: 8px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 8px;
+}
+
+.commits-header {
+    font-size: 0.7em;
+    color: #8b949e;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.commit-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-size: 0.75em;
+}
+
+.commit-dot {
+    width: 6px;
+    height: 6px;
+    background: #3fb950;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.commit-content {
+    text-align: right;
+}
+
+.commit-message {
+    color: #c9d1d9;
+    line-height: 1.2;
+}
+
+.commit-meta {
+    font-size: 0.85em;
+    color: #8b949e;
+    margin-top: 1px;
+}
+
+.commit-repo {
+    color: #58a6ff;
+}
+
+.commit-time {
+    margin-left: 8px;
+    color: #6e7681;
+}

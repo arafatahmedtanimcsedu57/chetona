@@ -1,0 +1,166 @@
+/* MMM-GroqAI Styles */
+
+.groq-ai-wrapper {
+    padding: 10px;
+    max-width: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.groq-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.mic-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mic-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.mic-button.listening {
+    background: rgba(231, 76, 60, 0.8);
+    border-color: #e74c3c;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(231, 76, 60, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0);
+    }
+}
+
+.input-container {
+    display: flex;
+    flex: 1;
+    gap: 8px;
+}
+
+.groq-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.groq-input:focus {
+    border-color: rgba(52, 152, 219, 0.8);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.groq-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.send-button {
+    background: rgba(52, 152, 219, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-button:hover {
+    background: rgba(52, 152, 219, 1);
+    transform: scale(1.05);
+}
+
+.groq-loading {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+}
+
+.groq-loading i {
+    margin-right: 8px;
+}
+
+.groq-response {
+    background: rgba(52, 152, 219, 0.15);
+    border-left: 3px solid #3498db;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.groq-response .error {
+    color: #e74c3c;
+}
+
+.groq-history {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.history-item {
+    margin-bottom: 15px;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+.history-item:last-child {
+    margin-bottom: 0;
+}
+
+.history-question {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 5px;
+}
+
+.history-question i {
+    color: #3498db;
+    margin-right: 8px;
+}
+
+.history-answer {
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 20px;
+}
+
+.history-answer i {
+    color: #2ecc71;
+    margin-right: 8px;
+}
+
+/* Bengali font support */
+.groq-ai-wrapper * {
+    font-family: 'Noto Sans Bengali', 'Roboto', sans-serif;
+}

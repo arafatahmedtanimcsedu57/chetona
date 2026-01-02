@@ -1,0 +1,20 @@
+.bangla-quote-wrapper {
+    /* text-align: center; */
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.bangla-quote-text {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #ddd;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.bangla-quote-author {
+    font-size: 0.9em;
+    color: #999;
+    text-align: right;
+}
