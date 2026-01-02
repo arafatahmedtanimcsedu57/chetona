@@ -1,3 +1,6 @@
+/* Import custom styles */
+@import url("custom.css");
+
 :root {
   --color-text: #999;
   --color-text-dimmed: #666;
