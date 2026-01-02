@@ -148,7 +148,9 @@ let config = {
 				username: "arafatahmedtanimcsedu57",
 				showAvatar: true,
 				showStats: true,
-				showBio: false
+				showBio: false,
+				showCommits: true,
+				maxCommits: 5
 			}
 		},
 		{
